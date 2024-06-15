@@ -10,9 +10,9 @@ st.set_page_config (
     menu_items = {'Get help':"https://www.polito.it"}
 )
 
-ut.check_connection("mysql+pymysql","root","mypassword","localhost","gym")
-
 st.sidebar.image("media/logo.png", use_column_width=True)
+
+ut.check_connection("mysql+pymysql","root","mypassword","localhost","gym")
 
 st.title(":red[Homework #4] - Matteo Tedde - s307688")
 st.header("Overview of the activities")

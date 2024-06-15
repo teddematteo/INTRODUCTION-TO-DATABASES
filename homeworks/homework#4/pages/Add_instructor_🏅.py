@@ -6,8 +6,8 @@ ut.check_connection("mysql+pymysql","root","mypassword","localhost","gym")
 
 st.title("Insertion of a new :red[Instructor]")
 
-with st.form("form"):
-    st.subheader("Find your instructor!")
+with st.form("form",clear_on_submit=True):
+    st.subheader("Add a new instructor!")
 
     fiscode = st.text_input("Fiscal code*:")
     name = st.text_input("Name*:")

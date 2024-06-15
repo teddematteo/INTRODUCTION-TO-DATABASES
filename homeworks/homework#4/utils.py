@@ -15,6 +15,7 @@ def execute_query(query,values=None):
 
 def execute_query_2(query):
     st.session_state["connection"].execute(text(query))
+    st.session_state["connection"].commit()
 
 def check_connection(dialect, username, password, host, dbname):
     res = connect_db(dialect,username,password,host,dbname)
