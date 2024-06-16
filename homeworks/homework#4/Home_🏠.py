@@ -10,9 +10,9 @@ st.set_page_config (
     menu_items = {'Get help':"https://www.polito.it"}
 )
 
-st.sidebar.image("/mount/src/introduction-to-databases/homeworks/homework#4/media/logo.png", use_column_width=True)
+#st.sidebar.image("/mount/src/introduction-to-databases/homeworks/homework#4/media/logo.png", use_column_width=True)
 
-cn = ut.check_connection("mysql+pymysql","root","mypassword","localhost","gym")
+cn = ut.check_connection("mysql+pymysql","teddepolito","mypassword","db4free.net:3306","gympoli")
 
 st.title(":red[Homework #4] - Matteo Tedde - s307688")
 st.header("Overview of the activities")

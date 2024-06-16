@@ -1,7 +1,7 @@
 import streamlit as st
 import utils as ut
 
-cn = ut.check_connection("mysql+pymysql","root","mypassword","localhost","gym")
+cn = ut.check_connection("mysql+pymysql","teddepolito","mypassword","db4free.net:3306","gympoli")
 
 st.title("Information about :red[Courses]")
 
