@@ -14,7 +14,7 @@ st.set_page_config (
 
 cn = ut.check_connection("mysql+pymysql","teddepolito","mypassword","db4free.net:3306","gympoli")
 
-st.title(":red[Homework #4] - Matteo Tedde - s307688")
+st.title(":red[Homework#4] - Matteo Tedde - s307688")
 st.header("Overview of the activities")
 
 if cn:
